@@ -8797,6 +8797,56 @@ h1, h2, h3, h4, h5,
       .services-1:hover h3:after {
         background: #000000; }
 
+
+
+
+        /* new class */
+
+        .services-2 {
+          margin-bottom: 40px;
+          padding: 2em;
+          background: rgba(255, 255, 255, 0.1);
+          width: 100%; }
+          .services-2 .icon {
+            display: block;
+            margin-bottom: 30px; }
+            .services-2 .icon i {
+              font-size: 60px;
+              line-height: 1.0;
+              color: #3e64ff; }
+          .services-2 .desc h3 {
+            line-height: 1.3;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            position: relative;
+            color: #000000; }
+            .services-2 .desc h3:after {
+              position: absolute;
+              bottom: -15px;
+              left: 0;
+              right: 0;
+              content: '';
+              width: 30px;
+              height: 1px;
+              background: #3e64ff;
+              margin: 0 auto; }
+            .services-2 .desc h3 a {
+              color: #fff; }
+          .services-2 .desc h4 {
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 18px; }
+          .services-2 .desc span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin-bottom: 10px;
+            color: #3e64ff; }
+
+
+
 .progress-wrap {
   width: 100%;
   margin-bottom: 30px; }
